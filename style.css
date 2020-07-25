@@ -1,0 +1,97 @@
+body{
+    background-image: url('bg\ img\ copy.jpg');
+    font-family: cursive !important;
+}
+
+.heading{
+    text-align: center;
+    font-family: cursive !important;
+        color:rgb(255, 0, 55);
+}
+
+.delBtn{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: rgb(255, 0, 55);
+    border: none;
+	cursor: pointer;
+	margin-left: 50px;
+}
+
+.editBtn{
+    font-size: 1.4rem;
+    margin: 0 0.5rem;
+    font-family: 'Hind' sans-serif;
+    background: none;
+    outline: none;
+    color: rgb(255, 0, 55);
+    border: none;
+    cursor: pointer;
+}
+
+.container-div{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin-top: 2rem;
+}
+
+.input{
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding: 10px;
+    width: 40%;
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid rgb(255, 0, 55);
+
+}
+
+.listItem{
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid wheat;
+    list-style: none;
+    font-family: cursive;
+    color: #efefef;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+@media only screen  and (max-width :360px){
+
+
+    .input{
+        border-radius: 10px;
+        background-color: gainsboro;
+        padding: 10px;
+        width: 80%;
+        outline: none;
+        background: none;
+        color: white;
+        border-bottom: 2px solid rgb(255, 0, 55);
+    
+    }
+    #addTodo{
+        margin-top: 10px;
+    }
+
+    #deleteAll{
+        margin-top: 10px;
+    }
+}
+
+@media only screen  and (max-width :415px){
+
+.editBtn{
+    margin-left: 70px !important;
+}
+}

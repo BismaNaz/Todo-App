@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container-fluid" style="margin-top: 100px;">
+
+        <div class="container text-center">
+            <h1 class="heading">ToDo Application</h1>
+        </div>
+        <div class="container text-center">
+            <div class="container">
+
+                    <input type="text" class="input"  id="todoItems" placeholder="Enter Tasks ToDo">
+                      
+                      <button type="button" id="addTodo" onclick="addTodo()" class="btn btn-outline-danger " style="color: rgb(255, 81, 0) !important">Add Task</button>
+                      <button type="button" id="deleteAll" onclick="deleteAll()" class="btn btn-outline-danger" style="color: rgb(255, 81, 0) !important">Delete All</button>
+
+                </div>
+           
+        </div>
+    </div>
+    
+    
+        <div class="container-div text-center">
+
+                    <ul id="list">
+    
+                    </ul>       
+            
+        </div>
+   
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
